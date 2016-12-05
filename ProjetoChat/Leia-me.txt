@@ -1,5 +1,5 @@
 MODO DE FUNCIONAMENTO:
 
-1. Executamos externamente o JavaSpace na pasta river;
-2. Executamos externamente o JMS na pasta openjms;
-3. SÛ ent„o executaremos o Servidor, e dois ou mais Clientes como exemplo.
+1. Executamos o JavaSpace: https://github.com/brunovitalino/JavaSpace/tree/master/JavaSpace
+2. Executamos o JMS: https://github.com/brunovitalino/JMS/tree/master/JMS
+3. S√≥ ent√£o compilaremos e executaremos o Servidor.java, e dois ou mais Clientes.java como exemplo.
