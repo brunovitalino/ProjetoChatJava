@@ -1,0 +1,5 @@
+MODO DE FUNCIONAMENTO:
+
+1. Executamos externamente o JavaSpace na pasta river;
+2. Executamos externamente o JMS na pasta openjms;
+3. Só então executaremos o Servidor, e dois ou mais Clientes como exemplo.
