@@ -3,3 +3,18 @@ MODO DE FUNCIONAMENTO:
 1. Executamos o JavaSpace: https://github.com/brunovitalino/JavaSpace/tree/master/JavaSpace
 2. Executamos o JMS: https://github.com/brunovitalino/JMS/tree/master/JMS
 3. Só então compilaremos e executaremos o Servidor.java, e dois ou mais Clientes.java como exemplo.
+
+CARACTERÍSTICAS DO APLICATIVO:
+
+1. O JavaSpace contem múltiplas salas de chat, sendo que cada sala tem um nome único.
+2. Cada sala contem múltiplos usuários, sendo que cada usuário pode estar em apenas uma sala por vez.
+3. Cada nome de usuário é único no JavaSpace.
+4. Usuários podem postar mensagens para a sala onde estão inseridos.
+5. Mensagens podem ser postadas para todos da sala ou individualmente para outro usuário.
+6. Usuários podem criar e mudar de sala.
+7. Clientes podem obter uma lista de todas as salas abertas no servidor.
+8. Clientes podem obter a lista de todos os usuários em uma sala particular.
+9. Salas que estão vazias por um período de 10 min devem são automaticamente removidas do servidor.
+10. Mensagens devem são removidas no servidor depois de 5 min.
+11. Caso um usuário saia de uma sala, mensagem podem ser enviadas, entrando em uma fila de mensagens JMS.
+12. Quando o usuário voltar para a sala, as mensagens que estão na fila são reenviadas para ele.
